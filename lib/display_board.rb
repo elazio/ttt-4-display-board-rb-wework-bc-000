@@ -2,8 +2,11 @@
 # out the current state.
 
  def display_board(board)
-   row_one = "#{"   "}, "|", #{"   "}, "|", #{"   "}"
-  
+   row_one = "   |   |   "
+   
+   
+   
+  row_one = "#{"   "}, "|", #{"   "}, "|", #{"   "}"
   middle = "-----------"
   puts row
   puts middle
