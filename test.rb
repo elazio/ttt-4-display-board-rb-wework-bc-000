@@ -9,4 +9,4 @@ puts #{X}
 
 name = "Deena"
 
-puts "Hello #{name}"
+puts "Hello #{board[0]}"
