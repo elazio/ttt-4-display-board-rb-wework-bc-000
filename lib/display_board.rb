@@ -2,25 +2,14 @@
 # out the current state.
 
  def display_board(board)
-   row_one = "   |   |   "
+   puts row_one = "#{board[0]}|#{board[1]}|#{board[2]}"
+   puts middle = "-----------"
+   puts row_two = "#{board[3]}|#{board[4]}|#{board[5]}"
+   puts middle = "-----------"
+   puts row_three = "#{board[6]}|#{board[7]}|#{board[8]}"
+ end 
    
-   
-   
-  row_one = "#{"   "}, "|", #{"   "}, "|", #{"   "}"
-  middle = "-----------"
-  puts row
-  puts middle
-  puts row
-  puts middle
-  puts row
- end
-
-
-
 board = ["   ", "   ", "   ", "   ", "   ", "   ", "   ", "   ", "   "]
 
 display_board(board) 
 
-puts #{X} 
-
-puts board[0]
